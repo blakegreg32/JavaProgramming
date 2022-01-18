@@ -1,1 +1,0 @@
-These projects are a part of textbook "Java Programming".
