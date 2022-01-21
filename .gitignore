@@ -1,2 +1,5 @@
 **/build
 **/dist
+/Introduction/demo/MultidimensionalArray/nbproject/private/
+/Introduction/exercise/IdentityMatrix/nbproject/private/
+/Introduction/exercise/EditDistance/nbproject/private/

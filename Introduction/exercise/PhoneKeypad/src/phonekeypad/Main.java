@@ -15,53 +15,53 @@ public class Main {
         String word = s.toLowerCase();
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            int j = map(c);
+            char key = map(c);
             if (i > 0) {
                 System.out.print("-");
             }
-            System.out.print(j);
+            System.out.print(key);
         }
         System.out.println();
     }
 
-    static int map(char c) {
+    static char map(char c) {
         switch (c) {
             case 'a':
             case 'b':
             case 'c':
-                return 2;
+                return '2';
             case 'd':
             case 'e':
             case 'f':
-                return 3;
+                return '3';
             case 'g':
             case 'h':
             case 'i':
-                return 4;
+                return '4';
             case 'j':
             case 'k':
             case 'l':
-                return 5;
+                return '5';
             case 'm':
             case 'n':
             case 'o':
-                return 6;
+                return '6';
             case 'p':
             case 'q':
             case 'r':
             case 's':
-                return 7;
+                return '7';
             case 't':
             case 'u':
             case 'v':
-                return 8;
+                return '8';
             case 'w':
             case 'x':
             case 'y':
             case 'z':
-                return 9;
+                return '9';
             default:
-                throw new RuntimeException("invalid character: " + c);
+                return '?';
         }
     }
 }
