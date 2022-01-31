@@ -20,8 +20,8 @@ public class Fraction {
         if (numerator == 0) {
             return;
         }
-        int a = numerator;
-        int b = denominator;
+        int a = Math.abs(numerator);
+        int b = Math.abs(denominator);
         while (a != b) {
             if (a > b) {
                 a -= b;

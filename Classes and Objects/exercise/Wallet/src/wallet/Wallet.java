@@ -11,7 +11,7 @@ public class Wallet {
     private int cents;
 
     public Wallet(int dollars) {
-        this.dollars = dollars;
+        this(dollars, 0);
     }
 
     public Wallet(int dollars, int cents) {
